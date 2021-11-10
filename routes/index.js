@@ -1,8 +1,8 @@
-const express = require('express')
-const router = express.Router()
+// const express = require('express')
+// const router = express.Router()
 
-const home = require('./modules/home')
+// const home = require('./modules/home')
 
-router.get('/', home)
+// router.get('/', home)
 
-module.exports = router
+// module.exports = router
