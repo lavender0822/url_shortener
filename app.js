@@ -7,6 +7,7 @@ const port = 3000
 app.engine('hbs', exphbs({ defaultLayout:'main', extname:'.hbs'}))
 app.set('view engine','hbs')
 
+require('./conifg/mongoose')
 app.get('/', (req, res) => {
     res.render('index')
 })
